@@ -1,9 +1,9 @@
 # Where the custom stuff is:
 
 Three files have been modified to create the custom style dropdown
-1. styles.js
-2. the index file (for testing I used samples/index.html)
-3. config.js
+- [styles.js](https://github.com/mykey007/ckeditor-acp-email-styles/blob/master/styles.js)
+- the index file (for testing I used [samples/index.html](https://github.com/mykey007/ckeditor-acp-email-styles/blob/master/samples/index.html))
+- [config.js](https://github.com/mykey007/ckeditor-acp-email-styles/blob/master/config.js)
 
 ## styles.js
 This is where a bulk of the work is done. Create an array of styles and watch it populate the dropdown:
