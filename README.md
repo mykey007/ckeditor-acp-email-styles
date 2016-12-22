@@ -1,4 +1,4 @@
-Where the custom stuff is:
+# Where the custom stuff is:
 
 Three files have been modified to create the custom style dropdown
 1. styles.js
@@ -6,8 +6,7 @@ Three files have been modified to create the custom style dropdown
 3. config.js
 
 ## styles.js
-This is where a bulk of the work is done. you create an array of styles and watch it grow!
-example:
+This is where a bulk of the work is done. Create an array of styles and watch it populate the dropdown:
 ```
 CKEDITOR.stylesSet.add( 'email_styles', [
     // Block-level styles
@@ -21,19 +20,21 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 	'font-family': 'Helvetica, Arial, sans-serif',
 	'font-size': '24px',
 	} 
-      }
-    ]);
+   }
+]);
 ```
 ## index.html
-here you need to link to your styles file after `ckeditor.js`
+link to your styles file after `ckeditor.js`
 ```
 <script src="../styles.js"></script>
 ```
 ## config.js
-here you need to include `email_styles` at the end of the file but within the config function like so:
+include `email_styles` at the end of the file but within the config function like so:
 ```
 config.stylesSet = 'email_styles';
 ```
+## Now onto the standard docs...
+
 CKEditor 4
 ==========
 
