@@ -125,9 +125,62 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  		'line-height': '1.65', 
  		'display': 'block',
  		'webkit-text-size-adjust':'none'
- 	}
-
- 	}
+ 		}
+ 	},
+ 	{ name: 'Button Blue',
+ 	element: 'span',
+ 	styles: {
+ 		'background-color': '#00a0df',
+ 		'color': '#fff', 
+ 		'height': '50px', 
+ 		'font-family': 'Helvetica, Arial, sans-serif', 
+ 		'font-weight': '400', 
+ 		'font-size': '16px', 
+ 		'line-height': '1', 
+ 		'display': 'inline-block',
+ 		'text-decoration': 'none',
+ 		'text-align': 'center',
+ 		'webkit-text-size-adjust':'none',
+ 		'border-radius': '25px 25px 25px 25px',
+ 		'padding': '10px 20px 10px 20px'
+ 		}
+ 	},
+ 	{ name: 'Button Green',
+ 	element: 'span',
+ 	styles: {
+ 		'background-color': '#2eb135',
+ 		'color': '#fff', 
+ 		'height': '50px', 
+ 		'font-family': 'Helvetica, Arial, sans-serif', 
+ 		'font-weight': '400', 
+ 		'font-size': '16px', 
+ 		'line-height': '1', 
+ 		'display': 'inline-block',
+ 		'text-decoration': 'none',
+ 		'text-align': 'center',
+ 		'webkit-text-size-adjust':'none',
+ 		'border-radius': '25px 25px 25px 25px',
+ 		'padding': '10px 20px 10px 20px'
+ 		}
+ 	},
+ 	{ name: 'Button Orange',
+ 	element: 'span',
+ 	styles: {
+ 		'background-color': '#ff7900',
+ 		'color': '#fff', 
+ 		'height': '50px', 
+ 		'font-family': 'Helvetica, Arial, sans-serif', 
+ 		'font-weight': '400', 
+ 		'font-size': '16px', 
+ 		'line-height': '1', 
+ 		'display': 'inline-block',
+ 		'text-decoration': 'none',
+ 		'text-align': 'center',
+ 		'webkit-text-size-adjust':'none',
+ 		'border-radius': '25px 25px 25px 25px',
+ 		'padding': '10px 20px 10px 20px'
+ 		}
+ 	},
 ] );
 
 
