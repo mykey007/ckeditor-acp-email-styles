@@ -127,12 +127,18 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  		'webkit-text-size-adjust':'none'
  		}
  	},
+ 	{ name: 'Button Text',
+ 	element: 'a',
+ 	styles: {
+ 		'color': '#fff',
+ 		'text-decoration': 'none'
+ 		}
+ 	},
  	{ name: 'Button Blue',
  	element: 'span',
  	styles: {
  		'background-color': '#00a0df',
  		'color': '#fff', 
- 		'height': '50px', 
  		'font-family': 'Helvetica, Arial, sans-serif', 
  		'font-weight': '400', 
  		'font-size': '16px', 
@@ -150,7 +156,6 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  	styles: {
  		'background-color': '#2eb135',
  		'color': '#fff', 
- 		'height': '50px', 
  		'font-family': 'Helvetica, Arial, sans-serif', 
  		'font-weight': '400', 
  		'font-size': '16px', 
@@ -168,7 +173,6 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  	styles: {
  		'background-color': '#ff7900',
  		'color': '#fff', 
- 		'height': '50px', 
  		'font-family': 'Helvetica, Arial, sans-serif', 
  		'font-weight': '400', 
  		'font-size': '16px', 
