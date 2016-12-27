@@ -17,39 +17,39 @@
 
 CKEDITOR.stylesSet.add( 'email_styles', [
     // Block-level styles
-    { name: 'Large Green Title', 
+    { name: 'Title Large Green', 
     element: 'h1', 
     styles: { 
 		'color': '#007E66', 
 		'margin-bottom': '15px', 
-		'margin-top': '15px', 
-		'line-height': '1.25', 
+		'display': 'block', 
+		'line-height': '1', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '24px',
 		'webkit-text-size-adjust':'none'
 		} 
     },
 
-    { name: 'Large Black Title', 
+    { name: 'Title Large', 
     element: 'h1', 
     styles: { 
 		'color': '#55616D', 
 		'margin-bottom': '15px', 
-		'margin-top': '15px', 
-		'line-height': '1.25', 
+		'display': 'block', 
+		'line-height': '1', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '24px',
 		'webkit-text-size-adjust':'none'
 		} 
     },
 
-    { name: 'Standard Green Title', 
+    { name: 'Title Standard Green', 
     element: 'h2', 
     styles: {
     	'color': '#007E66',
     	'margin-bottom': '15px', 
-		'margin-top': '15px', 
-		'line-height': '1.25', 
+		'display': 'block', 
+		'line-height': '1.2', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '20px',
 		'font-weight': '700',
@@ -57,7 +57,21 @@ CKEDITOR.stylesSet.add( 'email_styles', [
      	}
  	},
 
- 	{ name: 'Standard text', 
+ 	{ name: 'Title Standard', 
+    element: 'h2', 
+    styles: {
+    	'color': '#55616D',
+    	'margin-bottom': '15px', 
+		'display': 'block', 
+		'line-height': '1.2', 
+		'font-family': 'Helvetica, Arial, sans-serif',
+		'font-size': '20px',
+		'font-weight': '700',
+		'webkit-text-size-adjust':'none'
+     	}
+ 	},
+
+ 	{ name: 'Paragraph Text Standard', 
     element: 'span', 
     styles: {
     	'color': '#55616D',
@@ -71,7 +85,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
      	}
  	},
 
- 	{ name: 'Link color and underline', 
+ 	{ name: 'Link Underline Blue', 
     element: 'span', 
     styles: {
     	'color': '#00A0DF',
@@ -85,7 +99,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'webkit-text-size-adjust':'none'
      	}
  	},
- 	{ name: 'List styles', 
+ 	{ name: 'List Item Style', 
     element: 'span', 
     styles: {
     	'color': '#55616D',
@@ -99,7 +113,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'webkit-text-size-adjust':'none'
      	}
  	},
- 	{ name: 'Signature',
+ 	{ name: 'Text Signature',
  	element: 'span',
  	styles: {
  		'color': '#788991', 
