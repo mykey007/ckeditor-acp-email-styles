@@ -127,6 +127,13 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  		'webkit-text-size-adjust':'none'
  		}
  	},
+ 	{ name: 'Link Text',
+ 	element: 'a',
+ 	styles: {
+ 		'color': '#00a0df',
+ 		'text-decoration': 'underline'
+ 		}
+ 	},
  	{ name: 'Button Text',
  	element: 'a',
  	styles: {
