@@ -26,6 +26,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'line-height': '1.25', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '24px',
+		'webkit-text-size-adjust':'none'
 		} 
     },
 
@@ -38,6 +39,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'line-height': '1.25', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '24px',
+		'webkit-text-size-adjust':'none'
 		} 
     },
 
@@ -51,6 +53,7 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '20px',
 		'font-weight': '700',
+		'webkit-text-size-adjust':'none'
      	}
  	},
 
@@ -63,7 +66,8 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'line-height': '1.65', 
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '16px',
-		'font-weight': '400'
+		'font-weight': '400',
+		'webkit-text-size-adjust':'none'
      	}
  	},
 
@@ -77,7 +81,8 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '16px',
 		'font-weight': '400',
-		'text-decoration': 'underline'
+		'text-decoration': 'underline',
+		'webkit-text-size-adjust':'none'
      	}
  	},
  	{ name: 'List styles', 
@@ -90,8 +95,23 @@ CKEDITOR.stylesSet.add( 'email_styles', [
 		'font-family': 'Helvetica, Arial, sans-serif',
 		'font-size': '16px',
 		'font-weight': '400',
-		'list-style-type': 'disc'
+		'list-style-type': 'disc',
+		'webkit-text-size-adjust':'none'
      	}
+ 	},
+ 	{ name: 'Signature',
+ 	element: 'span',
+ 	styles: {
+ 		'color': '#788991', 
+ 		'margin-bottom': '15px', 
+ 		'font-family': 'Helvetica, Arial, sans-serif', 
+ 		'font-weight': '400', 
+ 		'font-size': '16px', 
+ 		'line-height': '1.65', 
+ 		'display': 'block',
+ 		'webkit-text-size-adjust':'none'
+ 	}
+
  	}
 ] );
 
