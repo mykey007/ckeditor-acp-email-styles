@@ -192,6 +192,17 @@ CKEDITOR.stylesSet.add( 'email_styles', [
  		'padding': '10px 20px 10px 20px'
  		}
  	},
+        { name: 'Green Banner',
+         element: 'span',
+         styles: {
+                 'font-size': '16px',
+                 'line-height': '30px',
+                 'color': '#ffffff',
+                 'background-color': '#A0CE6D',
+                 'text-align': 'center',
+                 'display': 'block'
+                 }
+        }
 ] );
 
 
